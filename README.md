@@ -2,7 +2,7 @@
 <h3>Details</h3>
 Stinger is a Python-2.7-coded Tor DoS tool with slow-GET and GET flood that can't be filtered by anti-DoS systems.<br>
 <h3>Credits</h3>
-Coded by @WhitePacket ~ whitepacket.org<br>
+Coded by @WhitePacket ~ whitepacket.com<br>
 <h3>Functionality</h3>
 Utilizes multi-threading with 256 threads default, and a thread capacity of 376.<br>
 Waits 5-20 seconds between each HTTP header in slow-GET mode to consume all web-server sockets, possibly crashing or over-loading it. Stinger sends HTTP requests as fast as possible with the flood option; This ends up being a battle of application-layer server power, or bandwidth.<br>
