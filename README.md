@@ -9,4 +9,4 @@ Waits 5-20 seconds between each HTTP header in slow-GET mode to consume all web-
 The payload is an exact replica of the latest version of the Tor Browser Bundle sending a GET request. This way if they end up filtering the traffic, almost all users can't visit the website anyways. All requests under Tor come from 127.0.0.1 so our DoS tool is completely identical to a Tor Browser Bundle user looking to visit your homepage.<br>
 <h3>Final statement</h3>
 Hopefully this is used for good, not bad. Maybe a few unmentionable, illegal Tor servers go down.<br>
-Donate BTC (nobody ever does): 1MfxuyEFY6StHo3gBPdNyRWGFDMxRutEXp<br>
+Donate BTC: 1JiyTFYsubsRzwj8uCtzxRirnr33wGS5YB<br>
