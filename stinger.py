@@ -22,10 +22,10 @@ args = parser.parse_args()
 if not args.s.lower().endswith(".onion"): #Only onion addresses accepted.
     print "Error: server specified is not hosted under Tor."
     exit(1)
-elif not len(list(args.s.lower())) == 22:
-    print "Error: server specified is not hosted under Tor."
-    exit(1)
-    
+#elif not len(list(args.s.lower())) == 22:
+ #   print "Error: server specified is not hosted under Tor."
+  #  exit(1)
+    # Modified so it will accept v3 Tor Address
 try:
     socks.setdefaultproxy(socks.PROXY_TYPE_SOCKS5, "127.0.0.1", int(args.tp))
 except e as Exception:
